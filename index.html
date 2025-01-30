@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/clouds.webp" type="image/x-icon">
+    <title>Weather App | VBLUUIZA </title>
+</head>
+<body>
+    <h1 class="title">Weather APP | VBLUUIZA</h1>
+    <div class="card container">
+        <div class="search container">
+            <input type="text" placeholder="Enter a city name" spellcheck="false" name="city">
+            <button><img src="images/search.webp" alt="Search Icon"></button>
+        </div>
+        <div class="error container">
+            <p>Invalid city name.</p>
+        </div>
+        <div class="weather container">
+            <img class="weather-icon" src="images/clouds.webp" alt="">
+            <h2 class="temp">18°c</h2>
+            <h3 class="city">New York</h3>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.webp" alt="Humidity Image">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>            
+                <div class="col">
+                    <img src="images/wind.webp" alt="Wind Image">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
