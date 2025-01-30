@@ -152,6 +152,7 @@ body {
         overflow-y: hidden;
     }
     .title {
+        margin-top: 2rem;
         font-size: 1.25rem;
         padding-inline: 2rem;
     }
